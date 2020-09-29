@@ -1,0 +1,74 @@
+/**
+ * You should NOT have to modify this file for the assignment!
+ */
+
+body {
+  background-color:#fdf5f5;
+  font-family: Times, serif;
+  font-size: 20px;
+}
+
+h1{
+  font-family: Merriweather;
+  text-align:center;
+  font-size: 30pt;
+}
+h2{
+  font-family: Montserrat;
+  text-align:center;
+  font-size: 12pt;
+}
+
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+form{
+  display: flex;
+  justify-content: center;
+}
+
+input[type=submit] {
+
+  width: 300px;
+  padding: 12px;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  font-size: 12pt;
+  text-transform: uppercase;
+  font-family:Montserrat;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+input[type=submit]:hover  {
+  background-color: black;
+  color: white;
+}
+
+input[type=submit]:focus,
+button:focus,
+select:focus,
+#preview-area:focus {
+  outline: none;
+}
+
+select {
+  font-family: Consolas, monospace;
+  font-size: 20px;
+}
+
+#preview-area {
+  border: 2px solid #bbb;
+  display: inline-block;
+  font-family: Consolas, monospace;
+  overflow: scroll;
+  padding: 10px;
+  margin: 0;
+}
+
+.hidden {
+  display: none;
+}
